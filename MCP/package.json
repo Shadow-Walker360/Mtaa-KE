@@ -1,0 +1,17 @@
+{
+  "name": "mtaa-ke-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that exposes the Mtaa KE landing page demo as an interactive HTML/CSS/JS UI resource.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["mcp", "mtaa-ke"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  }
+}
